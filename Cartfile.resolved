@@ -1,0 +1,6 @@
+github "Alamofire/Alamofire" "4.8.2"
+github "CRAnimation/CRRefresh" "1.1.3"
+github "SDWebImage/SDWebImage" "5.0.6"
+github "SVProgressHUD/SVProgressHUD" "2.2.5"
+github "SnapKit/SnapKit" "5.0.0"
+github "melvitax/DateHelper" "4.2.8"

@@ -1,0 +1,10 @@
+{
+  "commitish" : "1.1.3",
+  "iOS" : [
+    {
+      "name" : "CRRefresh",
+      "hash" : "428d374e19ab46e002888fcaa0f09386e839e8b996143fc93b9ab95f3db89ee8",
+      "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+    }
+  ]
+}

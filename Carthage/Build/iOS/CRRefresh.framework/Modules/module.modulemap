@@ -1,0 +1,4 @@
+framework module CRRefresh {
+  header "CRRefresh-Swift.h"
+  requires objc
+}

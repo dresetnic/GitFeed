@@ -1,0 +1,39 @@
+### Headers settings
+company: Dreamcraft
+
+### Xcode project settings
+project_name: GitFeed
+xcodeproj_path: GitFeed.xcodeproj
+prefix: GF
+
+### Code generation settings section
+# The main project target name
+project_target: GitFeed
+
+# The file path for new modules
+project_file_path: GitFeed/Modules
+
+# The Xcode group path to new modules
+project_group_path: GitFeed/Modules
+
+### Tests generation settings section
+# The tests target name
+test_target: GitFeedTests
+
+# The file path for new tests
+test_file_path: GitFeedTests/
+
+# The Xcode group path to new tests
+test_group_path: GitFeedTests/
+
+### Dependencies settings section
+
+cartfile_path: Cartfile
+
+### Templates
+templates:
+- {name: swifty_viper}
+
+#- {name: local_template_name, local: 'absolute/file/path'}
+#- {name: remote_template_name, git: 'https://github.com/igrekde/remote_template'}
+#- {name: catalog_template_name}

@@ -1,0 +1,10 @@
+{
+  "commitish" : "4.2.8",
+  "iOS" : [
+    {
+      "name" : "DateHelper",
+      "hash" : "54734d701c88689d046b5300f7b13cb2369c3f8c5784911bb97eecdb027d341e",
+      "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+    }
+  ]
+}

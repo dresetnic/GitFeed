@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="phN-DZ-JWi">
+                                <rect key="frame" x="0.0" y="5" width="414" height="896"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon" translatesAutoresizingMaskIntoConstraints="NO" id="btj-Lx-tNn">
+                                <rect key="frame" x="127" y="373" width="160" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="4og-no-hJ8"/>
+                                    <constraint firstAttribute="width" constant="160" id="d3k-VZ-N0W"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="btj-Lx-tNn" firstAttribute="centerY" secondItem="phN-DZ-JWi" secondAttribute="centerY" id="5oQ-mn-yB2"/>
+                            <constraint firstItem="btj-Lx-tNn" firstAttribute="centerX" secondItem="phN-DZ-JWi" secondAttribute="centerX" id="6DY-df-fSk"/>
+                            <constraint firstItem="phN-DZ-JWi" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="He9-Ot-C8I"/>
+                            <constraint firstItem="phN-DZ-JWi" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="Ksg-cZ-xb0"/>
+                            <constraint firstItem="phN-DZ-JWi" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="PIc-po-Vlu"/>
+                            <constraint firstItem="phN-DZ-JWi" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Yic-oa-XhF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Icon" width="604" height="710"/>
+    </resources>
+</document>

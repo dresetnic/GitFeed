@@ -1,0 +1,1159 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		024925B84F4F2A1C83DE7795 /* GFRepoViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EC81973FE78E435E48CC65 /* GFRepoViewOutput.swift */; };
+		0254639CDD464157B8F103B5 /* GFRepoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6C2F566FA2FBA3EAE5D496 /* GFRepoViewController.swift */; };
+		09E2464C8C630C4D908BF3EC /* GFSplashRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DA05A404C3B2F1D2E880A8 /* GFSplashRouterTests.swift */; };
+		0B6E994D524D68D3C574D320 /* GFSplashConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DBC3B77E9DA80B089C4DF4 /* GFSplashConfiguratorTests.swift */; };
+		1655C2F28BCFB360720818F6 /* GFRepoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9461E816F576B95A3315F325 /* GFRepoRouter.swift */; };
+		1B04351811107D1649E29C85 /* GFFeedInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC22511FDBEB5CCCEDD6C5FF /* GFFeedInteractor.swift */; };
+		1CE6433CAF229834A8E352E8 /* GFRepoInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F1537F4091AF726610563A /* GFRepoInitializer.swift */; };
+		27E6556F656A6CB0F9B7B2DD /* GFRepoInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1439CFE9134F59997E14F0 /* GFRepoInteractorInput.swift */; };
+		284638F7D7A55AE65AF983DF /* GFRepoConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EE14DF2ACB0A3C3CCBC55D /* GFRepoConfiguratorTests.swift */; };
+		2B0E1634695F4D790E6D222C /* GFSplashInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747F91E0AA571289FC1C74D2 /* GFSplashInteractorTests.swift */; };
+		2FFD3EDB4BF1C07F0BD04606 /* GFFeedViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E398C60C93A38D5035FC59B /* GFFeedViewInput.swift */; };
+		30FE3A1875EC34E96ECD9681 /* GFFeedRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6858E5580D846E0FE3E11F0A /* GFFeedRouter.swift */; };
+		32F70C597278D2E04CB6F9E4 /* GFRepoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8200586D2B6C119B3465C4D /* GFRepoInteractor.swift */; };
+		344707A0F3133B3E4CF923BA /* GFRepoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AED47DD38C1E2438B1A2591 /* GFRepoPresenter.swift */; };
+		3EC86D810F48A1B11FF1EF4B /* GFFeedModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0124530456D3B60C0C612E31 /* GFFeedModuleInput.swift */; };
+		4543D7AFE19CBBEC91F0952B /* GFSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EA9FB591DD263228B11314 /* GFSplashViewController.swift */; };
+		4B0BBFE49E5D58A4F0F0E542 /* GFSplashInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F92C3D04843A4B36ABBF6 /* GFSplashInteractor.swift */; };
+		567E2D22647B2F380E6C13AE /* GFFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBBE9E4473ED5CF1982F751 /* GFFeedViewController.swift */; };
+		5D5093DBAA8C97D299BBE6ED /* GFFeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A0E8BD66871FBD6CF23E80 /* GFFeedPresenter.swift */; };
+		5E6CA60922C9D81A00482354 /* GitFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6CA60822C9D81A00482354 /* GitFeedTests.swift */; };
+		5E6CA61022C9D8DA00482354 /* GFRepoViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9177E200152545AC395D173E /* GFRepoViewInput.swift */; };
+		5E6CA61122C9D8DA00482354 /* GFRepoViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EC81973FE78E435E48CC65 /* GFRepoViewOutput.swift */; };
+		5E6CA61222C9D8DA00482354 /* GFRepoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6C2F566FA2FBA3EAE5D496 /* GFRepoViewController.swift */; };
+		5E6CA61322C9D8DE00482354 /* GFRepoModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE6B6BE50C679CC0801839C /* GFRepoModuleInput.swift */; };
+		5E6CA61422C9D8DE00482354 /* GFRepoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AED47DD38C1E2438B1A2591 /* GFRepoPresenter.swift */; };
+		5E6CA61522C9D8E400482354 /* GFRepoInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1439CFE9134F59997E14F0 /* GFRepoInteractorInput.swift */; };
+		5E6CA61622C9D8E400482354 /* GFRepoInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE780FE3B7C000DA67FE502 /* GFRepoInteractorOutput.swift */; };
+		5E6CA61722C9D8E400482354 /* GFRepoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8200586D2B6C119B3465C4D /* GFRepoInteractor.swift */; };
+		5E6CA61822C9D8EA00482354 /* GFRepoRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21ADC6AE4023CEF05FFDEA6 /* GFRepoRouterInput.swift */; };
+		5E6CA61922C9D8EA00482354 /* GFRepoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9461E816F576B95A3315F325 /* GFRepoRouter.swift */; };
+		5E6CA61A22C9D8EF00482354 /* GFRepoConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC802A069CA8842946E64B /* GFRepoConfigurator.swift */; };
+		5E6CA61B22C9D8EF00482354 /* GFRepoInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F1537F4091AF726610563A /* GFRepoInitializer.swift */; };
+		5E6CA62022C9D9BC00482354 /* GFEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7ABE9322C4F2A600F1BEB3 /* GFEvent.swift */; };
+		5E6CA62122C9D9BC00482354 /* GFActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7ABE9522C4F9FE00F1BEB3 /* GFActor.swift */; };
+		5E6CA62222C9D9BC00482354 /* GFRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7ABEA422C6057C00F1BEB3 /* GFRepo.swift */; };
+		5E6CA62722C9DA0400482354 /* GFNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7ABE8B22C4E91E00F1BEB3 /* GFNetworkManager.swift */; };
+		5E6CA62822C9DA0400482354 /* GFNetworkManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7ABE8D22C4E94700F1BEB3 /* GFNetworkManagerProtocol.swift */; };
+		5E6CA62922C9DA0400482354 /* GFRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7ABE8F22C4E9E000F1BEB3 /* GFRouter.swift */; };
+		5E6CA62A22C9DA0400482354 /* GFKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7ABE9122C4F03400F1BEB3 /* GFKeys.swift */; };
+		5E6CA62B22C9DA0800482354 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7ABE9922C5143D00F1BEB3 /* UIViewController+Extension.swift */; };
+		5E6CA62C22C9DA1400482354 /* CRRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7ABEA822C61ED100F1BEB3 /* CRRefresh.framework */; };
+		5E6CA62D22C9DA1400482354 /* DateHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7ABEA622C614A600F1BEB3 /* DateHelper.framework */; };
+		5E6CA62E22C9DA1400482354 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7ABEA222C52EE900F1BEB3 /* SDWebImage.framework */; };
+		5E6CA62F22C9DA1400482354 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E70A7E022C4B53500F631E3 /* Alamofire.framework */; };
+		5E6CA63022C9DA1400482354 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E70A7E222C4B53500F631E3 /* SnapKit.framework */; };
+		5E6CA63122C9DA1400482354 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E70A7E122C4B53500F631E3 /* SVProgressHUD.framework */; };
+		5E6CA63222C9EA3C00482354 /* GFNavigationModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E70A7E922C4C28D00F631E3 /* GFNavigationModule.swift */; };
+		5E6CA63422C9EF0D00482354 /* GFRepoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6CA63322C9EF0D00482354 /* GFRepoDetails.swift */; };
+		5E6CA63522C9EF0D00482354 /* GFRepoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6CA63322C9EF0D00482354 /* GFRepoDetails.swift */; };
+		5E6CA63722CA14C600482354 /* GFLicense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6CA63622CA14C600482354 /* GFLicense.swift */; };
+		5E6CA63822CA14C600482354 /* GFLicense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6CA63622CA14C600482354 /* GFLicense.swift */; };
+		5E6CA63A22CB5B6300482354 /* GFRepoGeneralInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6CA63922CB5B6300482354 /* GFRepoGeneralInfoTableViewCell.swift */; };
+		5E6CA63B22CB5B6300482354 /* GFRepoGeneralInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6CA63922CB5B6300482354 /* GFRepoGeneralInfoTableViewCell.swift */; };
+		5E6CA63D22CB5B8B00482354 /* GFRepoOneFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6CA63C22CB5B8B00482354 /* GFRepoOneFieldTableViewCell.swift */; };
+		5E6CA63E22CB5B8B00482354 /* GFRepoOneFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6CA63C22CB5B8B00482354 /* GFRepoOneFieldTableViewCell.swift */; };
+		5E70A7B122C4B02400F631E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E70A7B022C4B02400F631E3 /* AppDelegate.swift */; };
+		5E70A7B822C4B02500F631E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E70A7B722C4B02500F631E3 /* Assets.xcassets */; };
+		5E70A7BB22C4B02500F631E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E70A7B922C4B02500F631E3 /* LaunchScreen.storyboard */; };
+		5E70A7E422C4B53500F631E3 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E70A7E022C4B53500F631E3 /* Alamofire.framework */; };
+		5E70A7E522C4B53500F631E3 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E70A7E122C4B53500F631E3 /* SVProgressHUD.framework */; };
+		5E70A7E622C4B53500F631E3 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E70A7E222C4B53500F631E3 /* SnapKit.framework */; };
+		5E70A7EA22C4C28D00F631E3 /* GFNavigationModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E70A7E922C4C28D00F631E3 /* GFNavigationModule.swift */; };
+		5E7ABE8C22C4E91E00F1BEB3 /* GFNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7ABE8B22C4E91E00F1BEB3 /* GFNetworkManager.swift */; };
+		5E7ABE8E22C4E94700F1BEB3 /* GFNetworkManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7ABE8D22C4E94700F1BEB3 /* GFNetworkManagerProtocol.swift */; };
+		5E7ABE9022C4E9E000F1BEB3 /* GFRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7ABE8F22C4E9E000F1BEB3 /* GFRouter.swift */; };
+		5E7ABE9222C4F03400F1BEB3 /* GFKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7ABE9122C4F03400F1BEB3 /* GFKeys.swift */; };
+		5E7ABE9422C4F2A600F1BEB3 /* GFEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7ABE9322C4F2A600F1BEB3 /* GFEvent.swift */; };
+		5E7ABE9622C4F9FE00F1BEB3 /* GFActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7ABE9522C4F9FE00F1BEB3 /* GFActor.swift */; };
+		5E7ABE9A22C5143D00F1BEB3 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7ABE9922C5143D00F1BEB3 /* UIViewController+Extension.swift */; };
+		5E7ABE9C22C5226200F1BEB3 /* GFFeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7ABE9B22C5226200F1BEB3 /* GFFeedTableViewCell.swift */; };
+		5E7ABEA322C52EE900F1BEB3 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7ABEA222C52EE900F1BEB3 /* SDWebImage.framework */; };
+		5E7ABEA522C6057C00F1BEB3 /* GFRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7ABEA422C6057C00F1BEB3 /* GFRepo.swift */; };
+		5E7ABEA722C614A600F1BEB3 /* DateHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7ABEA622C614A600F1BEB3 /* DateHelper.framework */; };
+		5E7ABEA922C61ED100F1BEB3 /* CRRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7ABEA822C61ED100F1BEB3 /* CRRefresh.framework */; };
+		5ED0DF4C22CCC41100D80EEA /* GFFeedViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E398C60C93A38D5035FC59B /* GFFeedViewInput.swift */; };
+		5ED0DF4D22CCC41100D80EEA /* GFFeedViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E589448851A83DA4876589 /* GFFeedViewOutput.swift */; };
+		5ED0DF4E22CCC41100D80EEA /* GFFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBBE9E4473ED5CF1982F751 /* GFFeedViewController.swift */; };
+		5ED0DF4F22CCC41100D80EEA /* GFFeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7ABE9B22C5226200F1BEB3 /* GFFeedTableViewCell.swift */; };
+		5ED0DF5022CCC41500D80EEA /* GFFeedModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0124530456D3B60C0C612E31 /* GFFeedModuleInput.swift */; };
+		5ED0DF5122CCC41500D80EEA /* GFFeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A0E8BD66871FBD6CF23E80 /* GFFeedPresenter.swift */; };
+		5ED0DF5222CCC41A00D80EEA /* GFFeedInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC497158975E21C0424CA993 /* GFFeedInteractorInput.swift */; };
+		5ED0DF5322CCC41A00D80EEA /* GFFeedInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CB1122BA9024510B72ACB8 /* GFFeedInteractorOutput.swift */; };
+		5ED0DF5422CCC41A00D80EEA /* GFFeedInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC22511FDBEB5CCCEDD6C5FF /* GFFeedInteractor.swift */; };
+		5ED0DF5522CCC41E00D80EEA /* GFFeedRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED60B6071545F559A0087B2 /* GFFeedRouterInput.swift */; };
+		5ED0DF5622CCC41E00D80EEA /* GFFeedRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6858E5580D846E0FE3E11F0A /* GFFeedRouter.swift */; };
+		5ED0DF5722CCC42200D80EEA /* GFFeedConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC27DF0C5CCD2C0C26BDB343 /* GFFeedConfigurator.swift */; };
+		5ED0DF5822CCC42200D80EEA /* GFFeedInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A10EADF9DFDA2A53E9B3A8 /* GFFeedInitializer.swift */; };
+		5ED0DF5922CDE3D200D80EEA /* GFSplashViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCC5706B25BC2E3A4E134F1 /* GFSplashViewInput.swift */; };
+		5ED0DF5A22CDE3D200D80EEA /* GFSplashViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7A3C5D465BF3D668801A21 /* GFSplashViewOutput.swift */; };
+		5ED0DF5B22CDE3D200D80EEA /* GFSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EA9FB591DD263228B11314 /* GFSplashViewController.swift */; };
+		5ED0DF5C22CDE3D600D80EEA /* GFSplashModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8564EF6075B72E8D217F1A99 /* GFSplashModuleInput.swift */; };
+		5ED0DF5D22CDE3D600D80EEA /* GFSplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1EC82B37B564EA55D935DF /* GFSplashPresenter.swift */; };
+		5ED0DF5E22CDE3DA00D80EEA /* GFSplashInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908977076A996F40FDF8D4F9 /* GFSplashInteractorInput.swift */; };
+		5ED0DF5F22CDE3DA00D80EEA /* GFSplashInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CAB072632EB27B626CC36D /* GFSplashInteractorOutput.swift */; };
+		5ED0DF6022CDE3DA00D80EEA /* GFSplashInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F92C3D04843A4B36ABBF6 /* GFSplashInteractor.swift */; };
+		5ED0DF6122CDE3DE00D80EEA /* GFSplashRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED462E8FFBF21B8CDA82A73B /* GFSplashRouterInput.swift */; };
+		5ED0DF6222CDE3DE00D80EEA /* GFSplashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB3C3B80EBC8E4C73A947A /* GFSplashRouter.swift */; };
+		5ED0DF6322CDE3E200D80EEA /* GFSplashConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D8A8CD9DA0B72A12014A3B /* GFSplashConfigurator.swift */; };
+		5ED0DF6422CDE3E200D80EEA /* GFSplashInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8C7E92737B6CBCF3129110 /* GFSplashInitializer.swift */; };
+		5ED0DF6622CDFC6900D80EEA /* GFAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED0DF6522CDFC6900D80EEA /* GFAnimator.swift */; };
+		5ED0DF6722CE084E00D80EEA /* GFAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED0DF6522CDFC6900D80EEA /* GFAnimator.swift */; };
+		60123060482C42472FB6E202 /* GFFeedViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E589448851A83DA4876589 /* GFFeedViewOutput.swift */; };
+		6389C7785932088994438D1E /* GFFeedRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED60B6071545F559A0087B2 /* GFFeedRouterInput.swift */; };
+		658122791FAAEB79515318A2 /* GFSplashRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED462E8FFBF21B8CDA82A73B /* GFSplashRouterInput.swift */; };
+		695EECF5472F82D9022F3EF7 /* GFRepoRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479E68A1481888E95136044E /* GFRepoRouterTests.swift */; };
+		6F8C7EAECF1B7B67E4930AF7 /* GFFeedConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC27DF0C5CCD2C0C26BDB343 /* GFFeedConfigurator.swift */; };
+		72499577C046FEDE44C58365 /* GFRepoRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21ADC6AE4023CEF05FFDEA6 /* GFRepoRouterInput.swift */; };
+		7614C575B6853867FC100F3D /* GFRepoPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BE67C6C1D2F16CE7348AC2 /* GFRepoPresenterTests.swift */; };
+		7AE4B43AB36F2B132232AB4B /* GFSplashConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D8A8CD9DA0B72A12014A3B /* GFSplashConfigurator.swift */; };
+		7B1C08851E5A7602851F5541 /* GFSplashInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CAB072632EB27B626CC36D /* GFSplashInteractorOutput.swift */; };
+		8432C506C07441726A3197B1 /* GFRepoInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9964D143811DC9342E755C /* GFRepoInteractorTests.swift */; };
+		99E2860B453EC4F87897ECCE /* GFSplashViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCC5706B25BC2E3A4E134F1 /* GFSplashViewInput.swift */; };
+		A9DD035516395BAD7551B082 /* GFRepoViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9177E200152545AC395D173E /* GFRepoViewInput.swift */; };
+		AD98C8211B52F161F730460D /* GFRepoConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC802A069CA8842946E64B /* GFRepoConfigurator.swift */; };
+		AEEE74D9822EA37CC8C59FC4 /* GFSplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1EC82B37B564EA55D935DF /* GFSplashPresenter.swift */; };
+		BD1796B48861B060361DE002 /* GFFeedInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC497158975E21C0424CA993 /* GFFeedInteractorInput.swift */; };
+		C91388845C13A372CCF301DC /* GFSplashPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EFF58347821FD6862471C9 /* GFSplashPresenterTests.swift */; };
+		CB25EDE3CDFEAFDDFA931862 /* GFRepoViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F601EB0E6FAA2080C9E36B /* GFRepoViewTests.swift */; };
+		CE46A37C82282BDC4BCE4FF7 /* GFSplashInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908977076A996F40FDF8D4F9 /* GFSplashInteractorInput.swift */; };
+		D158352E0DBB92E251B5A18C /* GFSplashViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7A3C5D465BF3D668801A21 /* GFSplashViewOutput.swift */; };
+		D49F3307A12D1358608AE51F /* GFFeedInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A10EADF9DFDA2A53E9B3A8 /* GFFeedInitializer.swift */; };
+		D8B0879E10E07611842BB39E /* GFSplashModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8564EF6075B72E8D217F1A99 /* GFSplashModuleInput.swift */; };
+		DBDE985760424A1E93363969 /* GFSplashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB3C3B80EBC8E4C73A947A /* GFSplashRouter.swift */; };
+		E36363B15FDC86548C82FBF7 /* GFRepoModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE6B6BE50C679CC0801839C /* GFRepoModuleInput.swift */; };
+		E68A8ACC6D8293AA3EB03AE6 /* GFSplashViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18DCA1A367C5A5079C3725 /* GFSplashViewTests.swift */; };
+		E6F06EF31A40E7DAAC5D7894 /* GFSplashInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8C7E92737B6CBCF3129110 /* GFSplashInitializer.swift */; };
+		FB41353E350D2A8DADEB5BC7 /* GFFeedInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CB1122BA9024510B72ACB8 /* GFFeedInteractorOutput.swift */; };
+		FF84846434962A2A60460BA0 /* GFRepoInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE780FE3B7C000DA67FE502 /* GFRepoInteractorOutput.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E6CA60B22C9D81A00482354 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E70A7A522C4B02400F631E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E70A7AC22C4B02400F631E3;
+			remoteInfo = GitFeed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0124530456D3B60C0C612E31 /* GFFeedModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFFeedModuleInput.swift; sourceTree = "<group>"; };
+		0AED47DD38C1E2438B1A2591 /* GFRepoPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFRepoPresenter.swift; sourceTree = "<group>"; };
+		0B1439CFE9134F59997E14F0 /* GFRepoInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFRepoInteractorInput.swift; sourceTree = "<group>"; };
+		11EE14DF2ACB0A3C3CCBC55D /* GFRepoConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFRepoConfiguratorTests.swift; sourceTree = "<group>"; };
+		11EFF58347821FD6862471C9 /* GFSplashPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFSplashPresenterTests.swift; sourceTree = "<group>"; };
+		1CCC5706B25BC2E3A4E134F1 /* GFSplashViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFSplashViewInput.swift; sourceTree = "<group>"; };
+		1F18DCA1A367C5A5079C3725 /* GFSplashViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFSplashViewTests.swift; sourceTree = "<group>"; };
+		1FFB3C3B80EBC8E4C73A947A /* GFSplashRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFSplashRouter.swift; sourceTree = "<group>"; };
+		31DA05A404C3B2F1D2E880A8 /* GFSplashRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFSplashRouterTests.swift; sourceTree = "<group>"; };
+		33CB1122BA9024510B72ACB8 /* GFFeedInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFFeedInteractorOutput.swift; sourceTree = "<group>"; };
+		3ED60B6071545F559A0087B2 /* GFFeedRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFFeedRouterInput.swift; sourceTree = "<group>"; };
+		43D8A8CD9DA0B72A12014A3B /* GFSplashConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFSplashConfigurator.swift; sourceTree = "<group>"; };
+		479E68A1481888E95136044E /* GFRepoRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFRepoRouterTests.swift; sourceTree = "<group>"; };
+		4BE6B6BE50C679CC0801839C /* GFRepoModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFRepoModuleInput.swift; sourceTree = "<group>"; };
+		4E7A3C5D465BF3D668801A21 /* GFSplashViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFSplashViewOutput.swift; sourceTree = "<group>"; };
+		53CAB072632EB27B626CC36D /* GFSplashInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFSplashInteractorOutput.swift; sourceTree = "<group>"; };
+		5E6CA60622C9D81A00482354 /* GitFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E6CA60822C9D81A00482354 /* GitFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitFeedTests.swift; sourceTree = "<group>"; };
+		5E6CA60A22C9D81A00482354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E6CA63322C9EF0D00482354 /* GFRepoDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRepoDetails.swift; sourceTree = "<group>"; };
+		5E6CA63622CA14C600482354 /* GFLicense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFLicense.swift; sourceTree = "<group>"; };
+		5E6CA63922CB5B6300482354 /* GFRepoGeneralInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRepoGeneralInfoTableViewCell.swift; sourceTree = "<group>"; };
+		5E6CA63C22CB5B8B00482354 /* GFRepoOneFieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRepoOneFieldTableViewCell.swift; sourceTree = "<group>"; };
+		5E70A7AD22C4B02400F631E3 /* GitFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E70A7B022C4B02400F631E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E70A7B722C4B02500F631E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E70A7BA22C4B02500F631E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E70A7BC22C4B02500F631E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E70A7E022C4B53500F631E3 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		5E70A7E122C4B53500F631E3 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
+		5E70A7E222C4B53500F631E3 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		5E70A7E922C4C28D00F631E3 /* GFNavigationModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFNavigationModule.swift; sourceTree = "<group>"; };
+		5E7ABE8B22C4E91E00F1BEB3 /* GFNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFNetworkManager.swift; sourceTree = "<group>"; };
+		5E7ABE8D22C4E94700F1BEB3 /* GFNetworkManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFNetworkManagerProtocol.swift; sourceTree = "<group>"; };
+		5E7ABE8F22C4E9E000F1BEB3 /* GFRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRouter.swift; sourceTree = "<group>"; };
+		5E7ABE9122C4F03400F1BEB3 /* GFKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFKeys.swift; sourceTree = "<group>"; };
+		5E7ABE9322C4F2A600F1BEB3 /* GFEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEvent.swift; sourceTree = "<group>"; };
+		5E7ABE9522C4F9FE00F1BEB3 /* GFActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFActor.swift; sourceTree = "<group>"; };
+		5E7ABE9922C5143D00F1BEB3 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		5E7ABE9B22C5226200F1BEB3 /* GFFeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFFeedTableViewCell.swift; sourceTree = "<group>"; };
+		5E7ABEA222C52EE900F1BEB3 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
+		5E7ABEA422C6057C00F1BEB3 /* GFRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRepo.swift; sourceTree = "<group>"; };
+		5E7ABEA622C614A600F1BEB3 /* DateHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DateHelper.framework; path = Carthage/Build/iOS/DateHelper.framework; sourceTree = "<group>"; };
+		5E7ABEA822C61ED100F1BEB3 /* CRRefresh.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CRRefresh.framework; path = Carthage/Build/iOS/CRRefresh.framework; sourceTree = "<group>"; };
+		5ED0DF6522CDFC6900D80EEA /* GFAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAnimator.swift; sourceTree = "<group>"; };
+		6858E5580D846E0FE3E11F0A /* GFFeedRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFFeedRouter.swift; sourceTree = "<group>"; };
+		68A0E8BD66871FBD6CF23E80 /* GFFeedPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFFeedPresenter.swift; sourceTree = "<group>"; };
+		72EA9FB591DD263228B11314 /* GFSplashViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFSplashViewController.swift; sourceTree = "<group>"; };
+		747F91E0AA571289FC1C74D2 /* GFSplashInteractorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFSplashInteractorTests.swift; sourceTree = "<group>"; };
+		79EC81973FE78E435E48CC65 /* GFRepoViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFRepoViewOutput.swift; sourceTree = "<group>"; };
+		7E398C60C93A38D5035FC59B /* GFFeedViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFFeedViewInput.swift; sourceTree = "<group>"; };
+		7F6C2F566FA2FBA3EAE5D496 /* GFRepoViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFRepoViewController.swift; sourceTree = "<group>"; };
+		8564EF6075B72E8D217F1A99 /* GFSplashModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFSplashModuleInput.swift; sourceTree = "<group>"; };
+		908977076A996F40FDF8D4F9 /* GFSplashInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFSplashInteractorInput.swift; sourceTree = "<group>"; };
+		90DBC3B77E9DA80B089C4DF4 /* GFSplashConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFSplashConfiguratorTests.swift; sourceTree = "<group>"; };
+		9177E200152545AC395D173E /* GFRepoViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFRepoViewInput.swift; sourceTree = "<group>"; };
+		9461E816F576B95A3315F325 /* GFRepoRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFRepoRouter.swift; sourceTree = "<group>"; };
+		9F1EC82B37B564EA55D935DF /* GFSplashPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFSplashPresenter.swift; sourceTree = "<group>"; };
+		A44F92C3D04843A4B36ABBF6 /* GFSplashInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFSplashInteractor.swift; sourceTree = "<group>"; };
+		A4BE67C6C1D2F16CE7348AC2 /* GFRepoPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFRepoPresenterTests.swift; sourceTree = "<group>"; };
+		A6F1537F4091AF726610563A /* GFRepoInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFRepoInitializer.swift; sourceTree = "<group>"; };
+		A8200586D2B6C119B3465C4D /* GFRepoInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFRepoInteractor.swift; sourceTree = "<group>"; };
+		A9F601EB0E6FAA2080C9E36B /* GFRepoViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFRepoViewTests.swift; sourceTree = "<group>"; };
+		AC9964D143811DC9342E755C /* GFRepoInteractorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFRepoInteractorTests.swift; sourceTree = "<group>"; };
+		AE8C7E92737B6CBCF3129110 /* GFSplashInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFSplashInitializer.swift; sourceTree = "<group>"; };
+		BEBBE9E4473ED5CF1982F751 /* GFFeedViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFFeedViewController.swift; sourceTree = "<group>"; };
+		C21ADC6AE4023CEF05FFDEA6 /* GFRepoRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFRepoRouterInput.swift; sourceTree = "<group>"; };
+		C4BC802A069CA8842946E64B /* GFRepoConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFRepoConfigurator.swift; sourceTree = "<group>"; };
+		CC22511FDBEB5CCCEDD6C5FF /* GFFeedInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFFeedInteractor.swift; sourceTree = "<group>"; };
+		CC27DF0C5CCD2C0C26BDB343 /* GFFeedConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFFeedConfigurator.swift; sourceTree = "<group>"; };
+		E4A10EADF9DFDA2A53E9B3A8 /* GFFeedInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFFeedInitializer.swift; sourceTree = "<group>"; };
+		E7E589448851A83DA4876589 /* GFFeedViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFFeedViewOutput.swift; sourceTree = "<group>"; };
+		ED462E8FFBF21B8CDA82A73B /* GFSplashRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFSplashRouterInput.swift; sourceTree = "<group>"; };
+		EFE780FE3B7C000DA67FE502 /* GFRepoInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFRepoInteractorOutput.swift; sourceTree = "<group>"; };
+		FC497158975E21C0424CA993 /* GFFeedInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GFFeedInteractorInput.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E6CA60322C9D81A00482354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E6CA63122C9DA1400482354 /* SVProgressHUD.framework in Frameworks */,
+				5E6CA62D22C9DA1400482354 /* DateHelper.framework in Frameworks */,
+				5E6CA62E22C9DA1400482354 /* SDWebImage.framework in Frameworks */,
+				5E6CA62C22C9DA1400482354 /* CRRefresh.framework in Frameworks */,
+				5E6CA62F22C9DA1400482354 /* Alamofire.framework in Frameworks */,
+				5E6CA63022C9DA1400482354 /* SnapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E70A7AA22C4B02400F631E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E70A7E422C4B53500F631E3 /* Alamofire.framework in Frameworks */,
+				5E7ABEA322C52EE900F1BEB3 /* SDWebImage.framework in Frameworks */,
+				5E70A7E522C4B53500F631E3 /* SVProgressHUD.framework in Frameworks */,
+				5E7ABEA722C614A600F1BEB3 /* DateHelper.framework in Frameworks */,
+				5E7ABEA922C61ED100F1BEB3 /* CRRefresh.framework in Frameworks */,
+				5E70A7E622C4B53500F631E3 /* SnapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0694C267917E3E2ECE4D001E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A4BE67C6C1D2F16CE7348AC2 /* GFRepoPresenterTests.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		0FFF1ABBE47A18E55B928EEE /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				43D8A8CD9DA0B72A12014A3B /* GFSplashConfigurator.swift */,
+				AE8C7E92737B6CBCF3129110 /* GFSplashInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		113759F92BD1B8BBBF522156 /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				76E6771E7ED816E42D571357 /* Configurator */,
+				A93028A388B81ACDF9E1ABBD /* View */,
+				F7E8A6CFD09D34C04EBE707C /* Interactor */,
+				0694C267917E3E2ECE4D001E /* Presenter */,
+				EE179A094C5E05FE821C4560 /* Router */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		13A382CF100B68804246D417 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9177E200152545AC395D173E /* GFRepoViewInput.swift */,
+				79EC81973FE78E435E48CC65 /* GFRepoViewOutput.swift */,
+				7F6C2F566FA2FBA3EAE5D496 /* GFRepoViewController.swift */,
+				5E6CA63922CB5B6300482354 /* GFRepoGeneralInfoTableViewCell.swift */,
+				5E6CA63C22CB5B8B00482354 /* GFRepoOneFieldTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BD62FDFAA80A71D52D3D60D /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3ED60B6071545F559A0087B2 /* GFFeedRouterInput.swift */,
+				6858E5580D846E0FE3E11F0A /* GFFeedRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		283A80D4945B9696E67AE64B /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				FC497158975E21C0424CA993 /* GFFeedInteractorInput.swift */,
+				33CB1122BA9024510B72ACB8 /* GFFeedInteractorOutput.swift */,
+				CC22511FDBEB5CCCEDD6C5FF /* GFFeedInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		2C8A9013B5168EADD227602A /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				F250DEA8CC524772D832EE09 /* View */,
+				ECA8E1EC988E1723977FF3E5 /* Presenter */,
+				283A80D4945B9696E67AE64B /* Interactor */,
+				1BD62FDFAA80A71D52D3D60D /* Router */,
+				E90D3A6C69CF7C2F71F4D7C4 /* Configurator */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		2D3EBAC838FF0C685892834E /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				747F91E0AA571289FC1C74D2 /* GFSplashInteractorTests.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		330D0F14F050B15098356B6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F18DCA1A367C5A5079C3725 /* GFSplashViewTests.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52F5FFC39395627E90E8DE16 /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				13A382CF100B68804246D417 /* View */,
+				7DD0CEB155600789939040B9 /* Presenter */,
+				589FB4D8D003EA234C2F612B /* Interactor */,
+				6843D3269D1DD85B318BC90D /* Router */,
+				8FE34BB59CD099DFA1D66ADC /* Configurator */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		589FB4D8D003EA234C2F612B /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				0B1439CFE9134F59997E14F0 /* GFRepoInteractorInput.swift */,
+				EFE780FE3B7C000DA67FE502 /* GFRepoInteractorOutput.swift */,
+				A8200586D2B6C119B3465C4D /* GFRepoInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		5E6CA60722C9D81A00482354 /* GitFeedTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E6CA60822C9D81A00482354 /* GitFeedTests.swift */,
+				5E6CA60A22C9D81A00482354 /* Info.plist */,
+				113759F92BD1B8BBBF522156 /* Repo */,
+				AC1E06A2545FBD96C7A6CBA6 /* Splash */,
+			);
+			path = GitFeedTests;
+			sourceTree = "<group>";
+		};
+		5E70A7A422C4B02400F631E3 = {
+			isa = PBXGroup;
+			children = (
+				5E70A7AF22C4B02400F631E3 /* GitFeed */,
+				5E6CA60722C9D81A00482354 /* GitFeedTests */,
+				5E70A7AE22C4B02400F631E3 /* Products */,
+				5E70A7DE22C4B53500F631E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5E70A7AE22C4B02400F631E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E70A7AD22C4B02400F631E3 /* GitFeed.app */,
+				5E6CA60622C9D81A00482354 /* GitFeedTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E70A7AF22C4B02400F631E3 /* GitFeed */ = {
+			isa = PBXGroup;
+			children = (
+				5E70A7B022C4B02400F631E3 /* AppDelegate.swift */,
+				5E70A7E922C4C28D00F631E3 /* GFNavigationModule.swift */,
+				5E7ABE6622C4D1DC00F1BEB3 /* Modules */,
+				5E7ABE8A22C4E84B00F1BEB3 /* Networking */,
+				5E7ABE8922C4E83500F1BEB3 /* Models */,
+				5E7ABE9822C5140400F1BEB3 /* Extensions */,
+				5E70A7B722C4B02500F631E3 /* Assets.xcassets */,
+				5E70A7B922C4B02500F631E3 /* LaunchScreen.storyboard */,
+				5E70A7BC22C4B02500F631E3 /* Info.plist */,
+			);
+			path = GitFeed;
+			sourceTree = "<group>";
+		};
+		5E70A7DE22C4B53500F631E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E7ABEA822C61ED100F1BEB3 /* CRRefresh.framework */,
+				5E7ABEA622C614A600F1BEB3 /* DateHelper.framework */,
+				5E7ABEA222C52EE900F1BEB3 /* SDWebImage.framework */,
+				5E70A7E022C4B53500F631E3 /* Alamofire.framework */,
+				5E70A7E222C4B53500F631E3 /* SnapKit.framework */,
+				5E70A7E122C4B53500F631E3 /* SVProgressHUD.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E7ABE6622C4D1DC00F1BEB3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B1A9B3526E8D99FB7F19BB20 /* Splash */,
+				2C8A9013B5168EADD227602A /* Feed */,
+				52F5FFC39395627E90E8DE16 /* Repo */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		5E7ABE8922C4E83500F1BEB3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5E7ABE9322C4F2A600F1BEB3 /* GFEvent.swift */,
+				5E7ABE9522C4F9FE00F1BEB3 /* GFActor.swift */,
+				5E7ABEA422C6057C00F1BEB3 /* GFRepo.swift */,
+				5E6CA63322C9EF0D00482354 /* GFRepoDetails.swift */,
+				5E6CA63622CA14C600482354 /* GFLicense.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5E7ABE8A22C4E84B00F1BEB3 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5E7ABE8B22C4E91E00F1BEB3 /* GFNetworkManager.swift */,
+				5E7ABE8D22C4E94700F1BEB3 /* GFNetworkManagerProtocol.swift */,
+				5E7ABE8F22C4E9E000F1BEB3 /* GFRouter.swift */,
+				5E7ABE9122C4F03400F1BEB3 /* GFKeys.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		5E7ABE9822C5140400F1BEB3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5E7ABE9922C5143D00F1BEB3 /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6843D3269D1DD85B318BC90D /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C21ADC6AE4023CEF05FFDEA6 /* GFRepoRouterInput.swift */,
+				9461E816F576B95A3315F325 /* GFRepoRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		76E6771E7ED816E42D571357 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				11EE14DF2ACB0A3C3CCBC55D /* GFRepoConfiguratorTests.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		7DD0CEB155600789939040B9 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				4BE6B6BE50C679CC0801839C /* GFRepoModuleInput.swift */,
+				0AED47DD38C1E2438B1A2591 /* GFRepoPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7EA65688430C25993226817E /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				ED462E8FFBF21B8CDA82A73B /* GFSplashRouterInput.swift */,
+				1FFB3C3B80EBC8E4C73A947A /* GFSplashRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		87AB5DE5C17B777D5EAE8662 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				11EFF58347821FD6862471C9 /* GFSplashPresenterTests.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		8FE34BB59CD099DFA1D66ADC /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC802A069CA8842946E64B /* GFRepoConfigurator.swift */,
+				A6F1537F4091AF726610563A /* GFRepoInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		99A67FC01517A4E7E7A65191 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				908977076A996F40FDF8D4F9 /* GFSplashInteractorInput.swift */,
+				53CAB072632EB27B626CC36D /* GFSplashInteractorOutput.swift */,
+				A44F92C3D04843A4B36ABBF6 /* GFSplashInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A93028A388B81ACDF9E1ABBD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A9F601EB0E6FAA2080C9E36B /* GFRepoViewTests.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC1E06A2545FBD96C7A6CBA6 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				D6EE7774654AABC9F7F7BA7C /* Configurator */,
+				330D0F14F050B15098356B6E /* View */,
+				2D3EBAC838FF0C685892834E /* Interactor */,
+				87AB5DE5C17B777D5EAE8662 /* Presenter */,
+				DD12803536E64BB7B8FC612E /* Router */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		B1A9B3526E8D99FB7F19BB20 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				CCC295AEC4DD39E04FCDE2F8 /* View */,
+				FD69A0EFAF23FA820622002C /* Presenter */,
+				99A67FC01517A4E7E7A65191 /* Interactor */,
+				7EA65688430C25993226817E /* Router */,
+				0FFF1ABBE47A18E55B928EEE /* Configurator */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		CCC295AEC4DD39E04FCDE2F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1CCC5706B25BC2E3A4E134F1 /* GFSplashViewInput.swift */,
+				4E7A3C5D465BF3D668801A21 /* GFSplashViewOutput.swift */,
+				72EA9FB591DD263228B11314 /* GFSplashViewController.swift */,
+				5ED0DF6522CDFC6900D80EEA /* GFAnimator.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D6EE7774654AABC9F7F7BA7C /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				90DBC3B77E9DA80B089C4DF4 /* GFSplashConfiguratorTests.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		DD12803536E64BB7B8FC612E /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				31DA05A404C3B2F1D2E880A8 /* GFSplashRouterTests.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		E90D3A6C69CF7C2F71F4D7C4 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				CC27DF0C5CCD2C0C26BDB343 /* GFFeedConfigurator.swift */,
+				E4A10EADF9DFDA2A53E9B3A8 /* GFFeedInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		ECA8E1EC988E1723977FF3E5 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				0124530456D3B60C0C612E31 /* GFFeedModuleInput.swift */,
+				68A0E8BD66871FBD6CF23E80 /* GFFeedPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		EE179A094C5E05FE821C4560 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				479E68A1481888E95136044E /* GFRepoRouterTests.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F250DEA8CC524772D832EE09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E398C60C93A38D5035FC59B /* GFFeedViewInput.swift */,
+				E7E589448851A83DA4876589 /* GFFeedViewOutput.swift */,
+				BEBBE9E4473ED5CF1982F751 /* GFFeedViewController.swift */,
+				5E7ABE9B22C5226200F1BEB3 /* GFFeedTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F7E8A6CFD09D34C04EBE707C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				AC9964D143811DC9342E755C /* GFRepoInteractorTests.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		FD69A0EFAF23FA820622002C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8564EF6075B72E8D217F1A99 /* GFSplashModuleInput.swift */,
+				9F1EC82B37B564EA55D935DF /* GFSplashPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E6CA60522C9D81A00482354 /* GitFeedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E6CA60D22C9D81A00482354 /* Build configuration list for PBXNativeTarget "GitFeedTests" */;
+			buildPhases = (
+				5E6CA60222C9D81A00482354 /* Sources */,
+				5E6CA60322C9D81A00482354 /* Frameworks */,
+				5E6CA60422C9D81A00482354 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E6CA60C22C9D81A00482354 /* PBXTargetDependency */,
+			);
+			name = GitFeedTests;
+			productName = GitFeedTests;
+			productReference = 5E6CA60622C9D81A00482354 /* GitFeedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E70A7AC22C4B02400F631E3 /* GitFeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E70A7D522C4B02600F631E3 /* Build configuration list for PBXNativeTarget "GitFeed" */;
+			buildPhases = (
+				5E70A7A922C4B02400F631E3 /* Sources */,
+				5E70A7AA22C4B02400F631E3 /* Frameworks */,
+				5E70A7AB22C4B02400F631E3 /* Resources */,
+				5E70A7E722C4B56800F631E3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GitFeed;
+			productName = GitFeed;
+			productReference = 5E70A7AD22C4B02400F631E3 /* GitFeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E70A7A522C4B02400F631E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Dragos Resetnic";
+				TargetAttributes = {
+					5E6CA60522C9D81A00482354 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 5E70A7AC22C4B02400F631E3;
+					};
+					5E70A7AC22C4B02400F631E3 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5E70A7A822C4B02400F631E3 /* Build configuration list for PBXProject "GitFeed" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E70A7A422C4B02400F631E3;
+			productRefGroup = 5E70A7AE22C4B02400F631E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E70A7AC22C4B02400F631E3 /* GitFeed */,
+				5E6CA60522C9D81A00482354 /* GitFeedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E6CA60422C9D81A00482354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E70A7AB22C4B02400F631E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E70A7BB22C4B02500F631E3 /* LaunchScreen.storyboard in Resources */,
+				5E70A7B822C4B02500F631E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E70A7E722C4B56800F631E3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SDWebImage.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SVProgressHUD.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/DateHelper.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CRRefresh.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E6CA60222C9D81A00482354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E6CA61522C9D8E400482354 /* GFRepoInteractorInput.swift in Sources */,
+				5ED0DF5022CCC41500D80EEA /* GFFeedModuleInput.swift in Sources */,
+				5E6CA61B22C9D8EF00482354 /* GFRepoInitializer.swift in Sources */,
+				5E6CA61922C9D8EA00482354 /* GFRepoRouter.swift in Sources */,
+				5ED0DF5222CCC41A00D80EEA /* GFFeedInteractorInput.swift in Sources */,
+				5E6CA63522C9EF0D00482354 /* GFRepoDetails.swift in Sources */,
+				5E6CA61122C9D8DA00482354 /* GFRepoViewOutput.swift in Sources */,
+				5E6CA62122C9D9BC00482354 /* GFActor.swift in Sources */,
+				5E6CA63222C9EA3C00482354 /* GFNavigationModule.swift in Sources */,
+				5E6CA60922C9D81A00482354 /* GitFeedTests.swift in Sources */,
+				5ED0DF5522CCC41E00D80EEA /* GFFeedRouterInput.swift in Sources */,
+				5E6CA61222C9D8DA00482354 /* GFRepoViewController.swift in Sources */,
+				5E6CA62922C9DA0400482354 /* GFRouter.swift in Sources */,
+				5E6CA63822CA14C600482354 /* GFLicense.swift in Sources */,
+				5ED0DF5322CCC41A00D80EEA /* GFFeedInteractorOutput.swift in Sources */,
+				5ED0DF6122CDE3DE00D80EEA /* GFSplashRouterInput.swift in Sources */,
+				5ED0DF5622CCC41E00D80EEA /* GFFeedRouter.swift in Sources */,
+				5ED0DF5D22CDE3D600D80EEA /* GFSplashPresenter.swift in Sources */,
+				5E6CA61A22C9D8EF00482354 /* GFRepoConfigurator.swift in Sources */,
+				5E6CA61322C9D8DE00482354 /* GFRepoModuleInput.swift in Sources */,
+				5ED0DF6322CDE3E200D80EEA /* GFSplashConfigurator.swift in Sources */,
+				5E6CA62A22C9DA0400482354 /* GFKeys.swift in Sources */,
+				284638F7D7A55AE65AF983DF /* GFRepoConfiguratorTests.swift in Sources */,
+				5ED0DF6422CDE3E200D80EEA /* GFSplashInitializer.swift in Sources */,
+				5E6CA61622C9D8E400482354 /* GFRepoInteractorOutput.swift in Sources */,
+				5E6CA63E22CB5B8B00482354 /* GFRepoOneFieldTableViewCell.swift in Sources */,
+				5E6CA61422C9D8DE00482354 /* GFRepoPresenter.swift in Sources */,
+				5E6CA62B22C9DA0800482354 /* UIViewController+Extension.swift in Sources */,
+				5ED0DF4E22CCC41100D80EEA /* GFFeedViewController.swift in Sources */,
+				5E6CA62822C9DA0400482354 /* GFNetworkManagerProtocol.swift in Sources */,
+				5E6CA62022C9D9BC00482354 /* GFEvent.swift in Sources */,
+				5E6CA61822C9D8EA00482354 /* GFRepoRouterInput.swift in Sources */,
+				5ED0DF5F22CDE3DA00D80EEA /* GFSplashInteractorOutput.swift in Sources */,
+				5E6CA62222C9D9BC00482354 /* GFRepo.swift in Sources */,
+				5E6CA62722C9DA0400482354 /* GFNetworkManager.swift in Sources */,
+				5ED0DF5A22CDE3D200D80EEA /* GFSplashViewOutput.swift in Sources */,
+				5ED0DF4D22CCC41100D80EEA /* GFFeedViewOutput.swift in Sources */,
+				5ED0DF6722CE084E00D80EEA /* GFAnimator.swift in Sources */,
+				CB25EDE3CDFEAFDDFA931862 /* GFRepoViewTests.swift in Sources */,
+				5ED0DF6022CDE3DA00D80EEA /* GFSplashInteractor.swift in Sources */,
+				5E6CA61722C9D8E400482354 /* GFRepoInteractor.swift in Sources */,
+				5E6CA63B22CB5B6300482354 /* GFRepoGeneralInfoTableViewCell.swift in Sources */,
+				5ED0DF4F22CCC41100D80EEA /* GFFeedTableViewCell.swift in Sources */,
+				8432C506C07441726A3197B1 /* GFRepoInteractorTests.swift in Sources */,
+				5ED0DF4C22CCC41100D80EEA /* GFFeedViewInput.swift in Sources */,
+				5ED0DF5722CCC42200D80EEA /* GFFeedConfigurator.swift in Sources */,
+				5ED0DF5122CCC41500D80EEA /* GFFeedPresenter.swift in Sources */,
+				5ED0DF5922CDE3D200D80EEA /* GFSplashViewInput.swift in Sources */,
+				7614C575B6853867FC100F3D /* GFRepoPresenterTests.swift in Sources */,
+				5ED0DF5422CCC41A00D80EEA /* GFFeedInteractor.swift in Sources */,
+				695EECF5472F82D9022F3EF7 /* GFRepoRouterTests.swift in Sources */,
+				5E6CA61022C9D8DA00482354 /* GFRepoViewInput.swift in Sources */,
+				5ED0DF5822CCC42200D80EEA /* GFFeedInitializer.swift in Sources */,
+				5ED0DF5B22CDE3D200D80EEA /* GFSplashViewController.swift in Sources */,
+				5ED0DF5E22CDE3DA00D80EEA /* GFSplashInteractorInput.swift in Sources */,
+				5ED0DF5C22CDE3D600D80EEA /* GFSplashModuleInput.swift in Sources */,
+				0B6E994D524D68D3C574D320 /* GFSplashConfiguratorTests.swift in Sources */,
+				E68A8ACC6D8293AA3EB03AE6 /* GFSplashViewTests.swift in Sources */,
+				5ED0DF6222CDE3DE00D80EEA /* GFSplashRouter.swift in Sources */,
+				2B0E1634695F4D790E6D222C /* GFSplashInteractorTests.swift in Sources */,
+				C91388845C13A372CCF301DC /* GFSplashPresenterTests.swift in Sources */,
+				09E2464C8C630C4D908BF3EC /* GFSplashRouterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E70A7A922C4B02400F631E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E70A7B122C4B02400F631E3 /* AppDelegate.swift in Sources */,
+				5E70A7EA22C4C28D00F631E3 /* GFNavigationModule.swift in Sources */,
+				5E7ABE9022C4E9E000F1BEB3 /* GFRouter.swift in Sources */,
+				2FFD3EDB4BF1C07F0BD04606 /* GFFeedViewInput.swift in Sources */,
+				60123060482C42472FB6E202 /* GFFeedViewOutput.swift in Sources */,
+				5E6CA63A22CB5B6300482354 /* GFRepoGeneralInfoTableViewCell.swift in Sources */,
+				5E7ABEA522C6057C00F1BEB3 /* GFRepo.swift in Sources */,
+				5E7ABE9A22C5143D00F1BEB3 /* UIViewController+Extension.swift in Sources */,
+				5E7ABE9422C4F2A600F1BEB3 /* GFEvent.swift in Sources */,
+				567E2D22647B2F380E6C13AE /* GFFeedViewController.swift in Sources */,
+				3EC86D810F48A1B11FF1EF4B /* GFFeedModuleInput.swift in Sources */,
+				5D5093DBAA8C97D299BBE6ED /* GFFeedPresenter.swift in Sources */,
+				5E7ABE9222C4F03400F1BEB3 /* GFKeys.swift in Sources */,
+				5E7ABE9622C4F9FE00F1BEB3 /* GFActor.swift in Sources */,
+				BD1796B48861B060361DE002 /* GFFeedInteractorInput.swift in Sources */,
+				5E7ABE8C22C4E91E00F1BEB3 /* GFNetworkManager.swift in Sources */,
+				FB41353E350D2A8DADEB5BC7 /* GFFeedInteractorOutput.swift in Sources */,
+				1B04351811107D1649E29C85 /* GFFeedInteractor.swift in Sources */,
+				5E7ABE9C22C5226200F1BEB3 /* GFFeedTableViewCell.swift in Sources */,
+				6389C7785932088994438D1E /* GFFeedRouterInput.swift in Sources */,
+				30FE3A1875EC34E96ECD9681 /* GFFeedRouter.swift in Sources */,
+				5E7ABE8E22C4E94700F1BEB3 /* GFNetworkManagerProtocol.swift in Sources */,
+				6F8C7EAECF1B7B67E4930AF7 /* GFFeedConfigurator.swift in Sources */,
+				5E6CA63722CA14C600482354 /* GFLicense.swift in Sources */,
+				5E6CA63D22CB5B8B00482354 /* GFRepoOneFieldTableViewCell.swift in Sources */,
+				D49F3307A12D1358608AE51F /* GFFeedInitializer.swift in Sources */,
+				A9DD035516395BAD7551B082 /* GFRepoViewInput.swift in Sources */,
+				024925B84F4F2A1C83DE7795 /* GFRepoViewOutput.swift in Sources */,
+				0254639CDD464157B8F103B5 /* GFRepoViewController.swift in Sources */,
+				E36363B15FDC86548C82FBF7 /* GFRepoModuleInput.swift in Sources */,
+				344707A0F3133B3E4CF923BA /* GFRepoPresenter.swift in Sources */,
+				27E6556F656A6CB0F9B7B2DD /* GFRepoInteractorInput.swift in Sources */,
+				FF84846434962A2A60460BA0 /* GFRepoInteractorOutput.swift in Sources */,
+				32F70C597278D2E04CB6F9E4 /* GFRepoInteractor.swift in Sources */,
+				72499577C046FEDE44C58365 /* GFRepoRouterInput.swift in Sources */,
+				1655C2F28BCFB360720818F6 /* GFRepoRouter.swift in Sources */,
+				AD98C8211B52F161F730460D /* GFRepoConfigurator.swift in Sources */,
+				1CE6433CAF229834A8E352E8 /* GFRepoInitializer.swift in Sources */,
+				5E6CA63422C9EF0D00482354 /* GFRepoDetails.swift in Sources */,
+				99E2860B453EC4F87897ECCE /* GFSplashViewInput.swift in Sources */,
+				D158352E0DBB92E251B5A18C /* GFSplashViewOutput.swift in Sources */,
+				4543D7AFE19CBBEC91F0952B /* GFSplashViewController.swift in Sources */,
+				D8B0879E10E07611842BB39E /* GFSplashModuleInput.swift in Sources */,
+				AEEE74D9822EA37CC8C59FC4 /* GFSplashPresenter.swift in Sources */,
+				CE46A37C82282BDC4BCE4FF7 /* GFSplashInteractorInput.swift in Sources */,
+				7B1C08851E5A7602851F5541 /* GFSplashInteractorOutput.swift in Sources */,
+				4B0BBFE49E5D58A4F0F0E542 /* GFSplashInteractor.swift in Sources */,
+				658122791FAAEB79515318A2 /* GFSplashRouterInput.swift in Sources */,
+				DBDE985760424A1E93363969 /* GFSplashRouter.swift in Sources */,
+				7AE4B43AB36F2B132232AB4B /* GFSplashConfigurator.swift in Sources */,
+				E6F06EF31A40E7DAAC5D7894 /* GFSplashInitializer.swift in Sources */,
+				5ED0DF6622CDFC6900D80EEA /* GFAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E6CA60C22C9D81A00482354 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E70A7AC22C4B02400F631E3 /* GitFeed */;
+			targetProxy = 5E6CA60B22C9D81A00482354 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E70A7B922C4B02500F631E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E70A7BA22C4B02500F631E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E6CA60E22C9D81A00482354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4A2Y7ZWMN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = GitFeedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dreamcraft.GitFeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitFeed.app/GitFeed";
+			};
+			name = Debug;
+		};
+		5E6CA60F22C9D81A00482354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4A2Y7ZWMN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = GitFeedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dreamcraft.GitFeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitFeed.app/GitFeed";
+			};
+			name = Release;
+		};
+		5E70A7D322C4B02600F631E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E70A7D422C4B02600F631E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E70A7D622C4B02600F631E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4A2Y7ZWMN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = GitFeed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dreamcraft.GitFeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5E70A7D722C4B02600F631E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4A2Y7ZWMN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = GitFeed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dreamcraft.GitFeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E6CA60D22C9D81A00482354 /* Build configuration list for PBXNativeTarget "GitFeedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E6CA60E22C9D81A00482354 /* Debug */,
+				5E6CA60F22C9D81A00482354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E70A7A822C4B02400F631E3 /* Build configuration list for PBXProject "GitFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E70A7D322C4B02600F631E3 /* Debug */,
+				5E70A7D422C4B02600F631E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E70A7D522C4B02600F631E3 /* Build configuration list for PBXNativeTarget "GitFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E70A7D622C4B02600F631E3 /* Debug */,
+				5E70A7D722C4B02600F631E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E70A7A522C4B02400F631E3 /* Project object */;
+}

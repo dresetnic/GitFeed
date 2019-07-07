@@ -1,0 +1,11 @@
+framework module DateHelper {
+  umbrella header "DateHelper.h"
+
+  export *
+  module * { export * }
+}
+
+module DateHelper.Swift {
+    header "DateHelper-Swift.h"
+    requires objc
+}
