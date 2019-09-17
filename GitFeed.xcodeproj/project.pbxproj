@@ -26,6 +26,7 @@
 		4B0BBFE49E5D58A4F0F0E542 /* GFSplashInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F92C3D04843A4B36ABBF6 /* GFSplashInteractor.swift */; };
 		567E2D22647B2F380E6C13AE /* GFFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBBE9E4473ED5CF1982F751 /* GFFeedViewController.swift */; };
 		5D5093DBAA8C97D299BBE6ED /* GFFeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A0E8BD66871FBD6CF23E80 /* GFFeedPresenter.swift */; };
+		5E51C13C22D27655002A6DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E70A7B722C4B02500F631E3 /* Assets.xcassets */; };
 		5E6CA60922C9D81A00482354 /* GitFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6CA60822C9D81A00482354 /* GitFeedTests.swift */; };
 		5E6CA61022C9D8DA00482354 /* GFRepoViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9177E200152545AC395D173E /* GFRepoViewInput.swift */; };
 		5E6CA61122C9D8DA00482354 /* GFRepoViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EC81973FE78E435E48CC65 /* GFRepoViewOutput.swift */; };
@@ -722,6 +723,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E51C13C22D27655002A6DF8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,33 +10,32 @@ import Foundation
 import Alamofire
 
 public typealias SuccessCompletion = (Any)->Void
-public typealias FailureCompletion = (String?)->Void
-public typealias CompletionGetEvents = (String, Bool, [GFEvent]?)->Void
-public typealias CompletionGetRepoDetails = (String, Bool, GFRepoDetails?) -> Void
+public typealias FailureCompletion = (Error)->Void
+public typealias CompletionGetEvents = (Error?, Bool, [GFEvent]?)->Void
+public typealias CompletionGetRepoDetails = (Error?, Bool, GFRepoDetails?) -> Void
 
 class GFNetworkManager: GFNetworkManagerProtocol {
-   
+    
     static let shared: GFNetworkManagerProtocol = GFNetworkManager()
     
     func getRepoDetails(name: String, completion: @escaping CompletionGetRepoDetails){
         
         self.request(urlRequest: GFRouter.repo(name), successCompletion: { (json) in
-           
+            
             if let dictionary = json as? Dictionary<String, AnyObject>{
                 let repoDetails = GFRepoDetails(dictionary: dictionary)
-                completion("All good", true, repoDetails)
+                completion(nil, true, repoDetails)
             } else {
-                completion ("Invalid information recieved.", false, nil)
+                completion (nil, false, nil)
             }
-            
-        }) { (stingError) in
-            completion("Failed to get repo details", false, nil)
+        }) { (error) in
+            completion(error , false, nil)
         }
     }
     
     func getEvents(page: Int, completion: @escaping CompletionGetEvents) {
         
-        let parameters = ["page":page,
+        let parameters = ["page": page,
                           "per_page": defaultItemsPerPage]
         
         self.request(urlRequest: GFRouter.events(parameters), successCompletion: { (json) in
@@ -49,9 +48,9 @@ class GFNetworkManager: GFNetworkManagerProtocol {
                     allEvents.append(event)
                 }
             }
-            completion("All good", true, allEvents)
-        }) { (stringError) in
-            completion("Failed to get events", false, nil)
+            completion(nil, true, allEvents)
+        }) { (error) in
+            completion(error, false, nil)
         }
     }
     
@@ -68,7 +67,7 @@ class GFNetworkManager: GFNetworkManagerProtocol {
                 }
                 break
             case .failure(let error):
-                failureCompletion(error.localizedDescription)
+                failureCompletion(error)
             }
         }
     }

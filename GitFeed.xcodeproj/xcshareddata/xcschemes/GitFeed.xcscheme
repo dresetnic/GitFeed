@@ -26,13 +26,14 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      codeCoverageEnabled = "YES"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5E70A7C022C4B02600F631E3"
+               BlueprintIdentifier = "5E6CA60522C9D81A00482354"
                BuildableName = "GitFeedTests.xctest"
                BlueprintName = "GitFeedTests"
                ReferencedContainer = "container:GitFeed.xcodeproj">

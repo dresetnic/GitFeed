@@ -13,14 +13,18 @@ class RepoInteractor: RepoInteractorInput {
     weak var output: RepoInteractorOutput!
     
     func getRepoDetails(repoName: String){
-        GFNetworkManager.shared.getRepoDetails(name: repoName) {[weak self] (message, isSucces, repoDetails) in
+        GFNetworkManager.shared.getRepoDetails(name: repoName) {[weak self] (error, isSucces, repoDetails) in
             if isSucces {
                 DispatchQueue.main.async {
                     self?.output.getRepoDetailsSucceded(repoDetails: repoDetails!)
                 }
             } else {
                 DispatchQueue.main.async {
-                    self?.output.getRepoDetailsFailed(message: message)
+                    if let error = error {
+                        self?.output.getRepoDetailsFailed(message: error.localizedDescription)
+                    } else {
+                        self?.output.getRepoDetailsFailed(message: "Failed to download repository information.")
+                    }
                 }
             }
         }
