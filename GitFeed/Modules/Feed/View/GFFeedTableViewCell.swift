@@ -72,8 +72,6 @@ class GFFeedTableViewCell: UITableViewCell {
     func setupViews(){
         userImageView.backgroundColor = .lightGray
         userImageView.layer.cornerRadius = 50
-        userImageView.layer.borderColor = UIColor.red.cgColor
-        userImageView.layer.borderWidth = 2
         
         userImageView.clipsToBounds = true
         
