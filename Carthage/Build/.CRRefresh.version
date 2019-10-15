@@ -3,8 +3,8 @@
   "iOS" : [
     {
       "name" : "CRRefresh",
-      "hash" : "428d374e19ab46e002888fcaa0f09386e839e8b996143fc93b9ab95f3db89ee8",
-      "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+      "hash" : "71b9a86133fedd6ff602f6b5e8ec69c7681e4c40dae244761eca29cb6230b311",
+      "swiftToolchainVersion" : "5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
     }
   ]
 }

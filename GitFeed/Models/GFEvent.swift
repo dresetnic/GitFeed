@@ -29,6 +29,29 @@ public struct GFEvent {
         
         self.repo = GFRepo(dictionary: dictionary[Key.Event.repoKey] as! Dictionary<String, AnyObject>)
     }
+    
+    static let example = GFEvent(with: [
+      "id": "10623670298",
+      "type": "WatchEvent",
+      "actor": [
+        "id": 56018101,
+        "login": "ChoseongHyeok",
+        "display_login": "ChoseongHyeok",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ChoseongHyeok",
+        "avatar_url": "https://avatars.githubusercontent.com/u/56018101?"
+      ],
+      "repo": [
+        "id": 215010469,
+        "name": "ChoseongHyeok/CSH",
+        "url": "https://api.github.com/repos/ChoseongHyeok/CSH"
+      ],
+      "payload": [
+        "action": "started"
+      ],
+      "public": true,
+      "created_at": "2019-10-14T10:32:42Z"
+        ] as Dictionary<String, AnyObject>)
 }
 
 extension GFEvent {
@@ -53,17 +76,6 @@ extension GFEvent {
 }
 
 extension GFEvent: Hashable{
-    
-    
-//     Comparable Protocol
-////    public static func < (lhs: GFEvent, rhs: GFEvent) -> Bool {
-////
-////        let lhsDate = Date(fromString: lhs.date, format: .isoDateTimeSec)!
-////        let rhsDate = Date(timeInterval: rhs.date, since: .isoDateTimeSec)!
-////
-////        return lhsDate > rhsDate
-////    }
-////
     public func hash(into hasher: inout Hasher){
         hasher.combine(idKey)
     }
