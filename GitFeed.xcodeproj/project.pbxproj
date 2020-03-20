@@ -70,6 +70,7 @@
 		5E70A7E522C4B53500F631E3 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E70A7E122C4B53500F631E3 /* SVProgressHUD.framework */; };
 		5E70A7E622C4B53500F631E3 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E70A7E222C4B53500F631E3 /* SnapKit.framework */; };
 		5E70A7EA22C4C28D00F631E3 /* GFNavigationModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E70A7E922C4C28D00F631E3 /* GFNavigationModule.swift */; };
+		5E76238A2386CD6200283FB7 /* FeedViewControllerSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7623892386CD6200283FB7 /* FeedViewControllerSwiftUIView.swift */; };
 		5E7ABE8C22C4E91E00F1BEB3 /* GFNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7ABE8B22C4E91E00F1BEB3 /* GFNetworkManager.swift */; };
 		5E7ABE8E22C4E94700F1BEB3 /* GFNetworkManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7ABE8D22C4E94700F1BEB3 /* GFNetworkManagerProtocol.swift */; };
 		5E7ABE9022C4E9E000F1BEB3 /* GFRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7ABE8F22C4E9E000F1BEB3 /* GFRouter.swift */; };
@@ -182,6 +183,7 @@
 		5E70A7E122C4B53500F631E3 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
 		5E70A7E222C4B53500F631E3 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 		5E70A7E922C4C28D00F631E3 /* GFNavigationModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFNavigationModule.swift; sourceTree = "<group>"; };
+		5E7623892386CD6200283FB7 /* FeedViewControllerSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewControllerSwiftUIView.swift; sourceTree = "<group>"; };
 		5E7ABE8B22C4E91E00F1BEB3 /* GFNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFNetworkManager.swift; sourceTree = "<group>"; };
 		5E7ABE8D22C4E94700F1BEB3 /* GFNetworkManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFNetworkManagerProtocol.swift; sourceTree = "<group>"; };
 		5E7ABE8F22C4E9E000F1BEB3 /* GFRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRouter.swift; sourceTree = "<group>"; };
@@ -623,6 +625,7 @@
 				BEBBE9E4473ED5CF1982F751 /* GFFeedViewController.swift */,
 				5E7ABE9B22C5226200F1BEB3 /* GFFeedTableViewCell.swift */,
 				5EEAE96B23548958006981A4 /* FeedTableViewCellPreview.swift */,
+				5E7623892386CD6200283FB7 /* FeedViewControllerSwiftUIView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -842,6 +845,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E70A7B122C4B02400F631E3 /* AppDelegate.swift in Sources */,
+				5E76238A2386CD6200283FB7 /* FeedViewControllerSwiftUIView.swift in Sources */,
 				5E70A7EA22C4C28D00F631E3 /* GFNavigationModule.swift in Sources */,
 				5E7ABE9022C4E9E000F1BEB3 /* GFRouter.swift in Sources */,
 				2FFD3EDB4BF1C07F0BD04606 /* GFFeedViewInput.swift in Sources */,
