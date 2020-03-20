@@ -79,7 +79,7 @@ class GFFeedTableViewCell: UITableViewCell {
         eventLabel.lineBreakMode = .byCharWrapping
         
         dateLabel.textAlignment = .right
-        dateLabel.font = UIFont.systemFont(ofSize: 12)
+        dateLabel.font = UIFont.systemFont(ofSize: 14)
         dateLabel.textColor = .lightGray
     }
     
