@@ -3,11 +3,17 @@
 GitHub activity feed.
 
 That simple app shows good practices of:
+
 • Call REST APIs [Alamofire](https://github.com/Alamofire/Alamofire);
+
 •  Map JSON to native object;
+
 •  VIPER Architecture (using [generamba](https://github.com/strongself/Generamba));
+
 •  VIPER architecture test.
+
 •  Animated Splash screen [youlaSplashScreen](https://github.com/youla-dev/youlaSplashScreen)
+
 •  Code only UI using [SnapKit](https://github.com/SnapKit/SnapKit) 
 
 
