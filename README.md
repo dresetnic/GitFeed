@@ -14,7 +14,7 @@ That simple app shows good practices of:
 
 •  Animated Splash screen [youlaSplashScreen](https://github.com/youla-dev/youlaSplashScreen)
 
-•  Code only UI using [SnapKit](https://github.com/SnapKit/SnapKit) 
+•  Code only UI using [SnapKit](https://github.com/SnapKit/SnapKit)
 
 
 # ios
@@ -26,3 +26,4 @@ That simple app shows good practices of:
 - [Carthage package manager](https://github.com/Carthage/Carthage#installing-carthage)
 - Navigate to the root directory of your project in Terminal.
 - Run the following command "carthage update --platform iOS"
+- Have fun.
