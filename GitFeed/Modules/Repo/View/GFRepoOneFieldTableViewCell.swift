@@ -40,7 +40,7 @@ class GFRepoOneFieldTableViewCell: UITableViewCell {
     
     func setupConstraints(){
         colorCircleView.snp.makeConstraints { (make) in
-            make.height.width.equalTo(20)
+            make.height.width.equalTo(22)
             make.left.equalToSuperview().inset(30)
             make.centerY.equalToSuperview()
         }
@@ -56,11 +56,11 @@ class GFRepoOneFieldTableViewCell: UITableViewCell {
         self.selectionStyle = .none
         
         colorCircleView.backgroundColor = .red
-        colorCircleView.layer.cornerRadius = 10
+        colorCircleView.layer.cornerRadius = 11
         colorCircleView.clipsToBounds = true
         
         
-        infoTextLabel.font = UIFont.boldSystemFont(ofSize: 18)
+        infoTextLabel.font = UIFont.boldSystemFont(ofSize: 19)
     }
     
     func setupWith(color: UIColor, text: String){

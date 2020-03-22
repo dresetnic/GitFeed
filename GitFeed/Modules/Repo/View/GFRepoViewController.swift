@@ -43,7 +43,7 @@ class RepoViewController: UIViewController, RepoViewInput {
     func setupViews(){
         self.title = "Repository"
         
-        self.view.backgroundColor = .white
+        self.view.backgroundColor = .red
         self.tableView.dataSource = self
         self.tableView.delegate = self
         self.tableView.register(GFRepoGeneralInfoTableViewCell.self, forCellReuseIdentifier: GFRepoGeneralInfoTableViewCell.rIdf)
